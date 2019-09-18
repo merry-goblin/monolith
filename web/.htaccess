@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/
+RewriteRule ^(.)*$ app.php  [QSA,L]

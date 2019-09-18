@@ -1,0 +1,21 @@
+{
+	"config": {
+		"platform": {
+			"php": "5.3.29"
+		}
+	},
+	"require": {
+		"php": "<=5.3.29",
+		"pimple/pimple": "~3.0",
+		"mustangostang/spyc": "^0.5.1",
+		"twig/twig": "~1.0",
+		"swiftmailer/swiftmailer": "4.1.7",
+		"merry-goblin/casterlith": "dev-master",
+		"merry-goblin/routerlith": "dev-master"
+	},
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    }
+}
